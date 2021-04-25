@@ -3,27 +3,26 @@ public class Producten {
 	private int productID;
 	private String prodNaam;
 
+	//Getters
 	public int getProductID() {
-		return this.productID;
+		return productID;
+	}
+	public String getProdNaam() {
+		return prodNaam;
 	}
 
-	/**
-	 * 
-	 * @param productID
-	 */
+	//Setters
 	public void setProductID(int productID) {
 		this.productID = productID;
 	}
-
-	public String getProdNaam() {
-		return this.prodNaam;
-	}
-
-	/**
-	 * 
-	 * @param prodNaam
-	 */
 	public void setProdNaam(String prodNaam) {
 		this.prodNaam = prodNaam;
 	}
+
+	public Producten(String pnm, int pid) {
+		this.prodNaam = pnm;
+		this.productID = pid;
+	}
+
+
 }
