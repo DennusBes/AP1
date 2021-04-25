@@ -3,7 +3,7 @@ public class Medewerkers {
 	private String medNaam;
 
 	public String getMedNaam() {
-		return this.medNaam;
+		return medNaam;
 	}
 
 	/**

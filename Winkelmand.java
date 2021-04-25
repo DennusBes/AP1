@@ -1,6 +1,10 @@
 public class Winkelmand {
 
 	private int[] productenLijst;
+	private int lengtelijst = productenLijst.length;
+
+
+	public int getLengtelijst() { return lengtelijst; }
 
 	/**
 	 * 
